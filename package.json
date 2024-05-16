@@ -65,5 +65,17 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.6.2",
     "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "product",
+    "card",
+    "fabio",
+    "cataldo"
+  ],
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy",
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    }
   }
 }
